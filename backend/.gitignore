@@ -1,0 +1,46 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# venv
+env/
+venv/
+.venv/
+
+# =========================
+# Django
+# =========================
+db.sqlite3
+db.sqlite3-journal
+
+# uploads / collected static
+media/
+staticfiles/
+
+# local settings (if you use)
+local_settings.py
+
+# =========================
+# Celery
+# =========================
+celerybeat-schedule
+celerybeat.pid
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# Migrations
+# =========================
+# ※基本は「migrationsはコミットする」ので無視しない（推奨）
+# もし個人開発で無視したい場合だけ下を有効化
+# */migrations/*
+# !*/migrations/__init__.py
