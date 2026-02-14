@@ -1,0 +1,40 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Secrets / Env
+# =========================
+.env
+.env.*
+*.pem
+*.key
+
+# =========================
+# Python venv
+# =========================
+env/
+venv/
+.venv/
+
+
+# =========================
+# Logs (common)
+# =========================
+*.log
+
+# =========================
+# Docker (common)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Optional: monorepo tooling caches (if you add later)
+# =========================
+.cache/
